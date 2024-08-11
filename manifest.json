@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Summariser",
+    "description": "AN extension to summarise youtube videos ussing the trqnscript",
+    "version": "1.0",
+    "permissions":["activeTab","declarativeContent"],
+    "host_permissions":["http://127.0.0.1:5000/*"],
+    "action":{
+        "default_title":"Summarize this video",
+        "default_icon":{
+            "16":"1.jpg",
+            "32":"1.jpg",
+            "48":"1.jpg",
+            "148":"1.jpg"
+        },
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "16":"1.jpg",
+        "32":"1.jpg",
+        "48":"1.jpg",
+        "148":"1.jpg"
+
+    }
+}
